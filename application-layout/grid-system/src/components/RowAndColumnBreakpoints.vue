@@ -20,3 +20,17 @@
     </v-layout>
   </v-container>
 </template>
+
+<script>
+export default {
+  computed: {
+    binding() {
+      const binding = {};
+
+      if (this.$vuetify.breakpoint.mdAndUp) binding.column = true;
+
+      return binding;
+    }
+  }
+};
+</script>

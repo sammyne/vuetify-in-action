@@ -6,12 +6,14 @@
       <order/>
       <direction-and-align/>
       <row-and-column-breakpoints/>
+      <nested-grid/>
     </v-app>
   </div>
 </template>
 
 <script>
 import DirectionAndAlign from "./components/DirectionAndAlign.vue";
+import NestedGrid from "./components/NestedGrid.vue";
 import Offset from "./components/Offset.vue";
 import Order from "./components/Order.vue";
 import RowAndColumnBreakpoints from "./components/RowAndColumnBreakpoints.vue";
@@ -21,6 +23,7 @@ export default {
   name: "app",
   components: {
     DirectionAndAlign,
+    NestedGrid,
     Offset,
     Order,
     RowAndColumnBreakpoints,
