@@ -7,6 +7,7 @@
       <direction-and-align/>
       <row-and-column-breakpoints/>
       <nested-grid/>
+      <unique-layout/>
     </v-app>
   </div>
 </template>
@@ -17,6 +18,7 @@ import NestedGrid from "./components/NestedGrid.vue";
 import Offset from "./components/Offset.vue";
 import Order from "./components/Order.vue";
 import RowAndColumnBreakpoints from "./components/RowAndColumnBreakpoints.vue";
+import UniqueLayout from "./components/UniqueLayout";
 import Usage from "./components/Usage.vue";
 
 export default {
@@ -27,6 +29,7 @@ export default {
     Offset,
     Order,
     RowAndColumnBreakpoints,
+    UniqueLayout,
     Usage
   }
 };
