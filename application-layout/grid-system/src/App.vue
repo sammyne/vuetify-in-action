@@ -8,6 +8,7 @@
       <row-and-column-breakpoints/>
       <nested-grid/>
       <unique-layout/>
+      <v-spacer/>
     </v-app>
   </div>
 </template>
@@ -20,6 +21,7 @@ import Order from "./components/Order.vue";
 import RowAndColumnBreakpoints from "./components/RowAndColumnBreakpoints.vue";
 import UniqueLayout from "./components/UniqueLayout";
 import Usage from "./components/Usage.vue";
+import VSpacer from "./components/VSpacer";
 
 export default {
   name: "app",
@@ -30,7 +32,8 @@ export default {
     Order,
     RowAndColumnBreakpoints,
     UniqueLayout,
-    Usage
+    Usage,
+    VSpacer
   }
 };
 </script>
