@@ -9,12 +9,14 @@
       <nested-grid/>
       <unique-layout/>
       <v-spacer/>
+      <html-tags/>
     </v-app>
   </div>
 </template>
 
 <script>
 import DirectionAndAlign from "./components/DirectionAndAlign.vue";
+import HtmlTags from "./components/HTMLTags";
 import NestedGrid from "./components/NestedGrid.vue";
 import Offset from "./components/Offset.vue";
 import Order from "./components/Order.vue";
@@ -27,6 +29,7 @@ export default {
   name: "app",
   components: {
     DirectionAndAlign,
+    HtmlTags,
     NestedGrid,
     Offset,
     Order,
