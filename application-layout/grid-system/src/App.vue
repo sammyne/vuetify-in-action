@@ -10,12 +10,14 @@
       <unique-layout/>
       <v-spacer/>
       <html-tags/>
+      <grid-list/>
     </v-app>
   </div>
 </template>
 
 <script>
 import DirectionAndAlign from "./components/DirectionAndAlign.vue";
+import GridList from "./components/GridList";
 import HtmlTags from "./components/HTMLTags";
 import NestedGrid from "./components/NestedGrid.vue";
 import Offset from "./components/Offset.vue";
@@ -29,6 +31,7 @@ export default {
   name: "app",
   components: {
     DirectionAndAlign,
+    GridList,
     HtmlTags,
     NestedGrid,
     Offset,
