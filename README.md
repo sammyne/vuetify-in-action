@@ -9,3 +9,4 @@ Tour of Vuetify framework
     - [x] Forms
     - [x] Inputs
     - [x] Selection-Controls
+    - [x] Sliders
