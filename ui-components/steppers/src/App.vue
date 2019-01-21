@@ -15,6 +15,7 @@
           <multi-line-error-state/>
           <alternate-labels-multi-line-error-state/>
           <vertical-multi-line-error-state/>
+          <dynamic-steps/>
         </v-content>
       </v-container>
     </v-app>
@@ -24,6 +25,7 @@
 <script>
 import AlternateLabels from "./components/AlternateLabels";
 import AlternateLabelsMultiLineErrorState from "./components/AlternateLabelsMultiLineErrorState";
+import DynamicSteps from "./components/DynamicSteps";
 import EditableSteps from "./components/EditableSteps";
 import HelloWorld from "./components/HelloWorld.vue";
 import Horizontal from "./components/Horizontal";
@@ -40,6 +42,7 @@ export default {
   components: {
     AlternateLabels,
     AlternateLabelsMultiLineErrorState,
+    DynamicSteps,
     EditableSteps,
     HelloWorld,
     Horizontal,
