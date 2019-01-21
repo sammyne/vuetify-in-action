@@ -14,6 +14,7 @@
           <alternate-labels/>
           <multi-line-error-state/>
           <alternate-labels-multi-line-error-state/>
+          <vertical-multi-line-error-state/>
         </v-content>
       </v-container>
     </v-app>
@@ -32,6 +33,7 @@ import NonEditableSteps from "./components/NonEditableSteps";
 import NonLinear from "./components/NonLinear";
 import Optionals from "./components/Optionals";
 import Vertical from "./components/Vertical";
+import VerticalMultiLineErrorState from "./components/VerticalMultiLineErrorState";
 
 export default {
   name: "app",
@@ -46,7 +48,8 @@ export default {
     NonEditableSteps,
     NonLinear,
     Optionals,
-    Vertical
+    Vertical,
+    VerticalMultiLineErrorState
   }
 };
 </script>
