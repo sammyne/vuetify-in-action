@@ -12,3 +12,4 @@ Tour of Vuetify framework
     - [x] Sliders
     - [x] Textareas
     - [x] Text Fields
+    - [x] Steppers  
