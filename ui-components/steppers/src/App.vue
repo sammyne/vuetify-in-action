@@ -13,6 +13,7 @@
           <non-linear/>
           <alternate-labels/>
           <multi-line-error-state/>
+          <alternate-labels-multi-line-error-state/>
         </v-content>
       </v-container>
     </v-app>
@@ -21,6 +22,7 @@
 
 <script>
 import AlternateLabels from "./components/AlternateLabels";
+import AlternateLabelsMultiLineErrorState from "./components/AlternateLabelsMultiLineErrorState";
 import EditableSteps from "./components/EditableSteps";
 import HelloWorld from "./components/HelloWorld.vue";
 import Horizontal from "./components/Horizontal";
@@ -35,6 +37,7 @@ export default {
   name: "app",
   components: {
     AlternateLabels,
+    AlternateLabelsMultiLineErrorState,
     EditableSteps,
     HelloWorld,
     Horizontal,
