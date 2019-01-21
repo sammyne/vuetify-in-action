@@ -12,6 +12,7 @@
           <linear/>
           <non-linear/>
           <alternate-labels/>
+          <multi-line-error-state/>
         </v-content>
       </v-container>
     </v-app>
@@ -24,6 +25,7 @@ import EditableSteps from "./components/EditableSteps";
 import HelloWorld from "./components/HelloWorld.vue";
 import Horizontal from "./components/Horizontal";
 import Linear from "./components/Linear";
+import MultiLineErrorState from "./components/MultiLineErrorState";
 import NonEditableSteps from "./components/NonEditableSteps";
 import NonLinear from "./components/NonLinear";
 import Optionals from "./components/Optionals";
@@ -37,6 +39,7 @@ export default {
     HelloWorld,
     Horizontal,
     Linear,
+    MultiLineErrorState,
     NonEditableSteps,
     NonLinear,
     Optionals,
