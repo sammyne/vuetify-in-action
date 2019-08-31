@@ -1,0 +1,13 @@
+{
+    "name": "vuetify-playground",
+    "version": "2.0.0",
+    "private": true,
+    "workspaces": [
+        "content",
+        "display"
+    ],
+    "scripts": {
+        "display": "yarn workspace display",
+        "content": "yarn workspace content"
+    }
+}
