@@ -2,6 +2,13 @@
 
 Tour of Vuetify framework
 
+## Prepreparation
+
+```bash
+yarn global add @vue/cli
+# and the create all projects with vue command
+```
+
 ## Progress
 
 - [ ] UI-Components
