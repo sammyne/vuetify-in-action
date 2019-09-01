@@ -1,4 +1,4 @@
-# data-iterator
+# display
 
 ## Project setup
 ```
