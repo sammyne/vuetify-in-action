@@ -12,6 +12,7 @@ yarn global add @vue/cli
 ## Progress
 
 - [ ] UI-Components
+    - [x] Footers
   - [ ] Input & Controls
     - [x] Forms
     - [x] Inputs
