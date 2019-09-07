@@ -1,4 +1,4 @@
-# toolbars
+# display
 
 ## Project setup
 ```
